@@ -1,9 +1,9 @@
 
-# Google Analytics Feedback Plugin for Xamarin
+# Google Analytics Feedback plugin for Xamarin
 
 ## Receive Feedback simply by using Google Analytics
 
-* Easy to install
+* Easy to install and use
 * Integrated with your Google Analytics data
 
 ## How it works
