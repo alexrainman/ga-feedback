@@ -25,6 +25,13 @@ All messages are saved as "Feedback" Events in Google Analytics.
 
 The Feedback widget dashboard is a readymade dashboard that displays user's feedback in tables (these are sorted by Number of Sessions per User so more active users show up first). The right column has a few other things like a pie chart and a timeline of all feedback received.
 
+Feedback submissions are saved as Events in Google Analytics (<em>Reporting</em> > <em>Behaviour</em> > <em>Events</em>).
+
+- **Events Category**: <code>Feedback</code>
+- **Events Action**: <code>Problem</code>, <code>Suggestion</code>, <code>Compliment</code> or <code>Other</code>
+- **Events Label**: User's feedback
+- **Events Value**: <code>1</code>
+
 <a href="https://www.google.com/analytics/web/template?uid=DcXKkhvbT1GSHHcOrdkGoA">Click here to get this Dashboard</a>, it's a great starting point and you can customize it further later, keep reading to see how.
 
 ![Feedback dashboard](https://cloud.githubusercontent.com/assets/141241/6202018/df394a10-b4ce-11e4-9b75-047aaf44c511.png)
@@ -42,20 +49,3 @@ If you don't want to receive an email every day, Google Analytics has got a feat
 ![Intelligence Events](https://cloud.githubusercontent.com/assets/141241/6192851/649201c6-b3b6-11e4-9b0a-b15783c18b01.png)
 
 You can choose to get an email only when more than 10 people submitted feedback, or filter only "Problems", or just get feedback from returning visitors, or from people that are in the US, or feedbacks that include the word "error", or feedback from users using Firefox...
-
-### Customization and detail
-
-Feedback submissions are saved as Events in Google Analytics (<em>Reporting</em> > <em>Behaviour</em> > <em>Events</em>).
-
-- **Events Category**: <code>Feedback</code>
-- **Events Action**: <code>Problem</code>, <code>Suggestion</code>, <code>Compliment</code> or <code>Other</code>
-- **Events Label**: User's feedback
-- **Events Value**: <code>1</code>
-
-#### Event Actions
-
-![Google Analytics Events Action](https://cloud.githubusercontent.com/assets/141241/6185994/6abf609e-b374-11e4-8e4c-7501001007e5.png)
-
-#### Event Labels
-
-![Google Analytics Events Label](https://cloud.githubusercontent.com/assets/141241/6186019/b39a9fae-b374-11e4-8c98-a1c0ebb52949.png)
