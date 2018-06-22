@@ -21,7 +21,6 @@ The user can select what type of feedback to send and fill in a text box. Once t
 
 All messages are saved as "Feedback" Events in Google Analytics.
 
-
 ## Feedback Dashboard
 
 The Feedback widget dashboard is a readymade dashboard that displays user's feedback in tables (these are sorted by Number of Sessions per User so more active users show up first). The right column has a few other things like a pie chart and a timeline of all feedback received.
@@ -35,7 +34,6 @@ The Feedback widget dashboard is a readymade dashboard that displays user's feed
 At the top of the Dashboard there's an <em>Email</em> button, click it to get an email with the Dashboard. You can customize Daily, Weekly, Monthly reports and also send it to you and your team:
 
 ![Daily email](https://cloud.githubusercontent.com/assets/141241/6202046/85f10072-b4d0-11e4-9bd6-d5f9c7c7f677.png)
-
 
 ### Occasional alert
 
@@ -61,63 +59,3 @@ Feedback submissions are saved as Events in Google Analytics (<em>Reporting</em>
 #### Event Labels
 
 ![Google Analytics Events Label](https://cloud.githubusercontent.com/assets/141241/6186019/b39a9fae-b374-11e4-8c98-a1c0ebb52949.png)
-
-
-## Setting it up in your website
-
-
-1. Load the <code>feedback.js</code> file after the Google Analytics code
-2. Initialize the Feedback widget with your parameters
-3. Done :)
-
-Here's a couple examples you can copy-paste:
-
-#### English
-
-<pre>&lt;script src="feedback.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-		Namespace.gaf.init( {
-		'open': 'Feedback',
-		'title': 'We would love to hear your thoughts!',
-		'option1': 'Problem',
-		'option2': 'Suggestion',
-		'option3': 'Compliment',
-		'option4': 'Other',
-		'placeholder': 'Please enter your feedback here&hellip;',
-		'send': 'Send',
-		'thankyou': 'Thank you for your feedback!'
-	} );
-&lt;/script&gt;</pre>
-
-
-#### Spanish
-
-<pre>&lt;script src="feedback.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-		Namespace.gaf.init( {
-		'open': 'Feedback',
-		'title': 'Nos encantaría conocer tu feedback:',
-		'option1': 'Problema',
-		'option2': 'Sugerencia',
-		'option3': 'Cumplido',
-		'option4': 'Otro',
-		'placeholder': 'Por favor, escribe aquí tu feedback&hellip;',
-		'send': 'Enviar',
-		'thankyou': '¡Gracias por tu feedback!'
-	} );
-&lt;/script&gt;</pre>
-
-
-### Advanced manual triggers
-
-You can load the Feedback form and control the Feedback widget from any other script in your site by accessing the <code>gaf</code> namespace. For example, to show the Feedback dialog window you can run this:
-
-<pre>Namespace.gaf.loadDialog();</pre>
-
-## Monthly reports and more...
-
-You now have a full Feedback website tool for free, and what's more awesome is that it is already built into Google Analytics with the rest of your website's traffic data. You can add it to your Dashboard, create reports on % of bugs reported, user satisfaction vs number of visits, etc... Be creative!
-
-<hr>
-
-Built by <a href="http://xaviesteve.com">Xavi</a>. Feel free to create issues, pull requests or send me suggestions and ideas on how to improve the Dashboard, etc.
