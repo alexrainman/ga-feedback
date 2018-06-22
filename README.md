@@ -1,16 +1,11 @@
 
-# Google Analytics Feedback Plugin
+# Google Analytics Feedback Plugin for Xamarin
 
-## Receive Feedback simply by using Google Analytics
+## Receive free and unlimited Feedback simply by using Google Analytics
 
-![Feedback dashboard](https://cloud.githubusercontent.com/assets/141241/6202018/df394a10-b4ce-11e4-9b75-047aaf44c511.png)
-
-* Free and unlimited feedback
 * Integrated with your Google Analytics data
 * Easy to install
 * Daily emails + Advanced reports
-
-The only thing you need is to use Google Analytics.
 
 ## How it works
 
