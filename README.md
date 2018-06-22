@@ -1,30 +1,18 @@
 
-# Google Analytics Feedback Widget
+# Google Analytics Feedback Plugin
 
 ## Receive Feedback simply by using Google Analytics
 
 ![Feedback dashboard](https://cloud.githubusercontent.com/assets/141241/6202018/df394a10-b4ce-11e4-9b75-047aaf44c511.png)
 
-Free and unlimited widget to gather feedback without having to register in any website, worry about limitations or pay any monthly fees.
-
 * Free and unlimited feedback
 * Integrated with your Google Analytics data
-* Just 1KB in size (gzipped) and no dependencies
 * Easy to install
-* Mobile-ready
 * Daily emails + Advanced reports
-* Full customization + Multilanguage
 
-The only thing you need is to use Google Analytics, no jQuery or other dependiencies are needed.
-
-The plugin is fully customizable, supports multiple languages and works in Desktop, mobile and tablet devices. It has been coded to be extremely tiny at just 1KB.
-
-You can see a live demo here: <a href="http://trendliker.com/">trendliker.com</a>
-
-
+The only thing you need is to use Google Analytics.
 
 ## How it works
-
 
 The plugin places a sticky button at the bottom right of the page:
 
@@ -54,7 +42,7 @@ At the top of the Dashboard there's an <em>Email</em> button, click it to get an
 ![Daily email](https://cloud.githubusercontent.com/assets/141241/6202046/85f10072-b4d0-11e4-9bd6-d5f9c7c7f677.png)
 
 
-### Occasional alert for small sites
+### Occasional alert
 
 If you don't want to receive an email every day, Google Analytics has got a feature called <em>Alerts</em> in <em>Intelligence Events</em> which allow you to receive emails when certain things happen. In the example below we receive a daily email when Feedback is submitted:
 
