@@ -8,9 +8,11 @@
 
 ## How it works
 
-The plugin depends on Google Analytics plugin for Xamarin to be installed and initialized: https://github.com/alexrainman/Analytics
+The plugin depends on Google Analytics plugin for Xamarin to be installed and initialized:
 
-Place an element in your UI, a button, a menu item, a banner. Once this element is clicked, execute this line of code:
+https://github.com/alexrainman/Analytics
+
+The next step will be to place an element in your UI, call it a button, a menu item, a banner, etc. Once this element is clicked, execute this line of code:
 
 ```
 CrossFeedback.Current.Report();
@@ -20,9 +22,9 @@ A Feedback Activity will be started in Android, a Feedback UIViewController will
 
 
 
-The user can select how they feel about the app and fill in a text box. Once the user clicks <em>Submit</em> the form disappears and a Thank you message shows up.
+The user can select how they feel about the app and type their opinion in a text box. Once the user clicks <em>Submit</em> the form disappears and a Thank you message shows up.
 
-All messages are saved as "Feedback" Events in Google Analytics.
+All submissions are saved as "Feedback" Events in Google Analytics.
 
 ## Feedback Dashboard
 
