@@ -8,15 +8,19 @@
 
 ## How it works
 
-The plugin places a sticky button at the bottom right of the page:
+The plugin depends on Google Analytics plugin for Xamarin to be installed and initialized: https://github.com/alexrainman/Analytics
 
-![Feedback button](https://cloud.githubusercontent.com/assets/141241/6185187/ce03b870-b36b-11e4-86a7-a6ef880f95ec.png)
+Place an element in your UI, a button, a menu item, a banner. Once this element is clicked, execute this line of code:
 
-Once clicked, it shows a Feedback form:
+```
+CrossFeedback.Current.Report();
+```
 
-![Feedback dialog](https://cloud.githubusercontent.com/assets/141241/6185199/f122f686-b36b-11e4-8858-fb8869824b82.png)
+A Feedback Activity will be started in Android, a Feedback UIViewController will be pushed in iOS:
 
-The user can select what type of feedback to send and fill in a text box. Once the user clicks <em>Send</em> a Thank you message shows up and the dialog disappears.
+
+
+The user can select how they feel about the app and fill in a text box. Once the user clicks <em>Submit</em> the form disappears and a Thank you message shows up.
 
 All messages are saved as "Feedback" Events in Google Analytics.
 
