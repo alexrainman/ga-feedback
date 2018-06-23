@@ -40,3 +40,13 @@ Feedback submissions are saved as Events in Google Analytics (<em>Reporting</em>
 ![Feedback dashboard](https://cloud.githubusercontent.com/assets/141241/6202018/df394a10-b4ce-11e4-9b75-047aaf44c511.png)
 
 <a href="https://www.google.com/analytics/web/template?uid=DcXKkhvbT1GSHHcOrdkGoA">Click here to get this Dashboard</a>, it's a great starting point and you can customize it further later.
+
+## Release Notes
+
+Version 1.1
+
+- Adding TintColor RGB parameter to match app design
+- Setting comments field max characters to 500 to match Google Analytics event label max bytes
+- Disabling paste into comments field
+- Applying an EmojiFilter to comments field
+- Updating labels
