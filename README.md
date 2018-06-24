@@ -32,7 +32,7 @@ Feedback submissions are saved as Events in Google Analytics (<em>Reporting</em>
 
 - **Events Category**: <code>Feedback</code>
 - **Events Action**: <code>Angry</code>, <code>Sad</code>, <code>Meh</code>, <code>Happy</code> and <code>Excited</code>
-- **Events Label**: User's feedback
+- **Events Label**: User's comments
 - **Events Value**: <code>1</code>
 
 ![Feedback dashboard](https://cloud.githubusercontent.com/assets/141241/6202018/df394a10-b4ce-11e4-9b75-047aaf44c511.png)
