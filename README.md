@@ -10,7 +10,7 @@
 
 The plugin depends on Google Analytics plugin for Xamarin: https://github.com/alexrainman/Analytics
 
-The next step will be to place an element in your UI, call it a button, a menu item, a banner, etc. Once this element is clicked, execute this line of code:
+The next step will be to place an element in your UI, call it a button, a menu item or a banner. Once this element is clicked, execute this line of code:
 
 ```
 CrossFeedback.Current.Report();
