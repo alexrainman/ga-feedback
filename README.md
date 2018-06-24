@@ -8,9 +8,7 @@
 
 ## How it works
 
-The plugin depends on Google Analytics plugin for Xamarin to be installed and initialized:
-
-https://github.com/alexrainman/Analytics
+The plugin depends on Google Analytics plugin for Xamarin: https://github.com/alexrainman/Analytics
 
 The next step will be to place an element in your UI, call it a button, a menu item, a banner, etc. Once this element is clicked, execute this line of code:
 
