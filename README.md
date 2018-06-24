@@ -13,7 +13,7 @@ The plugin depends on Google Analytics plugin for Xamarin: https://github.com/al
 The next step will be to place an element in your UI, call it a button, a menu item or a banner. Once this element is clicked, execute this line of code:
 
 ```
-CrossFeedback.Current.Report();
+CrossFeedback.Current.Report(int R = 44, int G = 151, int B = 218);
 ```
 
 A Feedback Activity will be started in Android, a Feedback UIViewController will be pushed in iOS:
