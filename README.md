@@ -3,7 +3,7 @@
 
 ## Receive Feedback simply by using Google Analytics
 
-* Easy to install and use
+* Easy to use
 * Integrated with your Google Analytics data
 
 ## How it works
