@@ -31,7 +31,7 @@ The Feedback widget dashboard is a readymade dashboard that displays user's feed
 Feedback submissions are saved as Events in Google Analytics (<em>Reporting</em> > <em>Behaviour</em> > <em>Events</em>).
 
 - **Events Category**: <code>Feedback</code>
-- **Events Action**: <code>Angry</code>, <code>Sad</code>, <code>Meh</code>, <code>Happy</code> or <code>Excited</code>
+- **Events Action**: <code>Angry</code>, <code>Sad</code>, <code>Meh</code>, <code>Happy</code> and <code>Excited</code>
 - **Events Label**: User's feedback
 - **Events Value**: <code>1</code>
 
